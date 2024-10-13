@@ -1,5 +1,4 @@
 import Image from "next/image";
-import NavbarLink from "./NavbarLink";
 import Link from "next/link";
 
 import igualdadDeGenero from "../../images/igualdad-de-genero.jpeg";
