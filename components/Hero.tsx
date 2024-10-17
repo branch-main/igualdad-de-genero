@@ -23,7 +23,7 @@ export default function Hero() {
           y equilibrada&quot;
         </p>
         <button
-          className="bg-red-500 sm:mt-5 py-2 px-5 font-bold text-white fonttext-xl rounded-lg hover:bg-red-400 transition-colors w-fit"
+          className="bg-red-500 sm:mt-5 py-2 px-5 font-bold text-white fonttext-xl rounded-lg hover:bg-red-700 transition-colors w-fit"
           onClick={handleClick}
         >
           Conocer más
