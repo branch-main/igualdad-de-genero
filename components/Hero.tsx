@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import igualdadDeGenero from "@/app/images/igualdad-de-genero.jpeg";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -14,15 +15,17 @@ export default function Hero() {
       </p>
       <div className="flex flex-col sm:flex-row gap-16 items-center justify-center mt-16">
         <Image src={igualdadDeGenero} alt="Igualdad de género" />
-        <div className="text-left flex flex-col sm:w-[500px]">
-          <h2 className="font-bold text-4xl text-black">Introducción</h2>
-          <p className="font-medium text-lg mt-5">
-            La igualdad de género es un principio fundamental para lograr una
-            sociedad justa y equitativa. A lo largo de la historia, diversos
-            movimientos y eventos han marcado hitos importantes en la lucha por
-            la igualdad de derechos entre hombres y mujeres. A continuación,
-            exploraremos algunos de estos eventos históricos clave.
+        <div className="flex flex-col items-center sm:items-start">
+          <p className="text-left font-medium text-3xl mt-5 sm:w-[500px]">
+            &quot;La igualdad de género es clave para construir una sociedad
+            justa y equilibrada.&quot;
           </p>
+          <Link
+            href="#introduction"
+            className="bg-red-500 mt-6 py-2 px-5 font-bold text-white fonttext-xl rounded-lg hover:bg-transparent hover:text-black border-2 border-red-500 transition-all w-fit scroll-smooth"
+          >
+            Conocer más
+          </Link>
         </div>
       </div>
     </div>

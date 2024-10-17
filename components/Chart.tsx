@@ -24,7 +24,7 @@ export default function Chart({
           <ApexChart
             type="pie"
             height="100%"
-            options={{ labels }}
+            options={{ labels, legend: { show: false } }}
             series={series}
           />
         </div>

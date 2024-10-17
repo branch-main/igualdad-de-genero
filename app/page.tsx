@@ -5,6 +5,17 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-20">
       <Hero />
+      <section
+        id="introduction"
+        className="pt-5 mx-5 sm:mx-10 flex flex-col gap-5"
+      >
+        <h2 className="font-bold text-4xl">Introducción</h2>
+        La igualdad de género es un principio fundamental para lograr una
+        sociedad justa y equitativa. A lo largo de la historia, diversos
+        movimientos y eventos han marcado hitos importantes en la lucha por la
+        igualdad de derechos entre hombres y mujeres. A continuación,
+        exploraremos algunos de estos eventos históricos clave.
+      </section>
       <section className="mx-5 sm:mx-10 flex flex-col gap-5">
         <h2 className="font-bold text-4xl">Focus group</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-10">
