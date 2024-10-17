@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import igualdadDeGenero from "@/app/images/aaa.png";
+import hero from "@/app/images/hero.png";
 
 export default function Hero() {
   function handleClick() {
@@ -29,11 +29,7 @@ export default function Hero() {
           Conocer más
         </button>
       </div>
-      <Image
-        className="sm:w-1/2"
-        src={igualdadDeGenero}
-        alt="Igualdad de género"
-      />
+      <Image className="sm:w-1/2" src={hero} alt="Igualdad de género" />
     </div>
   );
 }
