@@ -43,11 +43,11 @@ export default function Home() {
         <h2 className="font-bold text-4xl">Encuesta</h2>
         <div className="flex flex-col items-start gap-5">
           <p>
-            Nuestro objetivo con la es obtener datos valiosos acerca de la
-            igualdad de género en el instituto y apoyar a la ODS de la igualdad
-            de género para poder buscar una solución que funcione para todos.
-            Para lograr recopilar información hemos realizado una encuesta
-            considerando las siguientes preguntas:
+            Nuestro objetivo con es obtener datos valiosos acerca de la igualdad
+            de género en el instituto y apoyar a la ODS de la igualdad de género
+            para poder buscar una solución que funcione para todos. Para lograr
+            recopilar información hemos realizado una encuesta considerando las
+            siguientes preguntas:
           </p>
           <div className="grid sm:grid-cols-2 gap-5">
             <Chart
