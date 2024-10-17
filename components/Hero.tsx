@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-
 import hero from "@/app/images/hero.png";
 
 export default function Hero() {
