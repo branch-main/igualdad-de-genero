@@ -3,11 +3,11 @@ import Chart from "@/components/Chart";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-20 row-start-2 text-center">
-      <Hero></Hero>
-      <section className="text-left mx-20 flex flex-col gap-5">
+    <main className="flex flex-col gap-20">
+      <Hero />
+      <section className="mx-5 sm:mx-10 flex flex-col gap-5">
         <h2 className="font-bold text-4xl">Focus group</h2>
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-10">
           <p>
             Nuestro equipo ha llevado a cabo un focus group virtual con el
             objetivo de compartir y analizar experiencias relacionadas con la
@@ -23,29 +23,26 @@ export default function Home() {
             de género real y sostenible.
           </p>
           <iframe
-            className="aspect-video"
+            className="aspect-video w-full"
             src="https://drive.google.com/file/d/1i8KNOqxSidxJHwdlFPkUiNHT58nXpbY6/preview"
-            width="600"
           />
         </div>
       </section>
-      <section className="text-left mx-20 flex flex-col gap-5">
+      <section className="mx-5 sm:mx-10 text-left flex flex-col gap-5">
         <h2 className="font-bold text-4xl">Encuesta</h2>
         <div className="flex flex-col items-start gap-5">
           <p>
-            <b>Objetivo:</b> Obtener datos valiosos acerca de la igualdad de
-            género en el instituto y apoyar a la ODS de la igualdad de género
-            para poder buscar una solución que funcione para todos.
-          </p>
-          <p>
+            Nuestro objetivo con la es obtener datos valiosos acerca de la
+            igualdad de género en el instituto y apoyar a la ODS de la igualdad
+            de género para poder buscar una solución que funcione para todos.
             Para lograr recopilar información hemos realizado una encuesta
             considerando las siguientes preguntas:
           </p>
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid sm:grid-cols-2 gap-5">
             <Chart
               text="¿Consideras que en Tecsup se promueve la igualdad de género?"
               labels={["Sí", "No"]}
-              series={[131, 32]}
+              series={[4, 14]}
             />
             <Chart
               text="¿Has presenciado o escuchado de situaciones de desigualdad de género en el instituto?"
