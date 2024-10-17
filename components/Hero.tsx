@@ -11,6 +11,7 @@ export default function Hero() {
       section.scrollIntoView({ behavior: "smooth" });
     }
   }
+
   return (
     <div className="flex flex-col sm:flex-row items-center mx-5 gap-16 sm:gap-10 mt-10 sm:mt-20 mb-5 sm:mx-20">
       <div className="sm:w-1/2 flex flex-col gap-10 sm:gap-5 items-center sm:items-start text-center sm:text-left">
