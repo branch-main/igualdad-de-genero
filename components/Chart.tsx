@@ -20,14 +20,12 @@ export default function Chart({
         {series.reduce((acc, serie) => acc + serie, 0)} respuestas
       </p>
       <div className="flex items-center justify-center">
-        <div className="w-full">
-          <ApexChart
-            type="pie"
-            height="100%"
-            options={{ labels, legend: { show: false } }}
-            series={series}
-          />
-        </div>
+        <ApexChart
+          type="pie"
+          height="100%"
+          options={{ labels, legend: { show: false } }}
+          series={series}
+        />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import igualdadDeGenero from "@/app/images/igualdad-de-genero.jpeg";
+import igualdadDeGenero from "@/app/images/logo.png";
 import { usePathname } from "next/navigation";
 
 function NavbarLink({
@@ -29,7 +29,7 @@ export default function Navbar() {
     <header>
       <nav className="max-w-[1440px] mx-auto flex items-center justify-between px-10 py-5">
         <Link href="/" className="flex items-center">
-          <Image src={igualdadDeGenero} alt="Logo" width={50} />
+          <Image src={igualdadDeGenero} alt="Logo" width={50} height={50} />
         </Link>
         <ul className="flex flex-row gap-5">
           <NavbarLink href="/">Inicio</NavbarLink>
