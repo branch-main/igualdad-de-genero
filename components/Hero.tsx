@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col sm:flex-row items-center mx-5 gap-16 sm:gap-10 mt-24 sm:mt-20 mb-5 sm:mx-20">
+    <div className="flex flex-col sm:flex-row items-center mx-5 gap-16 sm:gap-10 mt-16 sm:mt-20 mb-5 sm:mx-20">
       <div className="sm:w-1/2 flex flex-col gap-10 sm:gap-5 items-center sm:items-start text-center sm:text-left">
         <h1 className="font-bold text-6xl sm:leading-normal">
           <span className="text-red-500">Igualdad de género</span> en Tecsup
