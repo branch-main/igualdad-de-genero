@@ -3,6 +3,7 @@ import Introduction from "@/components/Introduction";
 import Information1 from "@/components/Information1";
 import Information2 from "@/components/Information2";
 import FocusGroup from "@/components/FocusGroup";
+import Publicidad from "@/components/Publicidad";
 import Encuestas from "@/components/Encuestas";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <FocusGroup />
 
       <Encuestas />
+      <Publicidad />
     </main>
   );
 }

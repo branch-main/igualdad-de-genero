@@ -52,7 +52,7 @@ export default function Equipo() {
           tecnología.
         </p>
       </div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6 mb-6">
         {teamMembers.map((member, index) => (
           <div
             key={index}

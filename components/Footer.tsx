@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-red-800 to-red-500 text-white py-6 mt-10">
+    <footer className="bg-gradient-to-r from-red-800 to-red-500 text-white py-6">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
         <p className="text-sm text-center sm:text-left mb-4 sm:mb-0">
           © 2024 IgualdadDeGenero. Todos los derechos reservados.
