@@ -4,7 +4,7 @@ export default function FocusGroup() {
       <div className="max-w-[800px]">
         <div className="flex flex-col">
           <h2 className="font-bold text-5xl text-center text-white mb-6">
-            Vide Publicitario
+            Video Publicitario
           </h2>
           <p className="text-gray-200 mb-6 text-xl text-center">
             Un video breve que muestra momentos de equidad con el mensaje:
