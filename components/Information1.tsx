@@ -85,10 +85,15 @@ const dataALC = [
   },
 ];
 
-const InfoSection: React.FC<{ title: string; data: any[] }> = ({
-  title,
-  data,
-}) => {
+const InfoSection: React.FC<{
+  title: string;
+  data: {
+    title: string;
+    description: string;
+    value: number;
+    icon: React.ReactNode;
+  }[];
+}> = ({ title, data }) => {
   return (
     <section className="py-10 px-5 sm:px-10">
       <h2 className="font-extrabold text-4xl sm:text-5xl text-black mb-10 text-center">

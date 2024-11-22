@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import Chart from "@/components/Chart";
 import Introduction from "@/components/Introduction";
 import Information1 from "@/components/Information1";
 import Information2 from "@/components/Information2";

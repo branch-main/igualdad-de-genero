@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const teamMembers = [
   {
     name: "Alan Roncal",
@@ -58,7 +60,7 @@ export default function Equipo() {
             key={index}
             className="bg-white p-6 rounded-lg shadow-lg text-center hover:scale-105 hover:bg-red-100 transform transition duration-300 ease-in-out"
           >
-            <img
+            <Image
               src={member.image}
               alt={member.name}
               className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
