@@ -3,32 +3,45 @@
 import Image from "next/image";
 import hero from "@/app/images/hero.png";
 
+function scrollToElementWithOffset(id: string, offset: number) {
+  const element = document.getElementById(id);
+  if (element) {
+    const elementTop = element.getBoundingClientRect().top + window.scrollY;
+    const targetPosition = elementTop - offset;
+
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth",
+    });
+  }
+}
+
 export default function Hero() {
   function handleClick() {
-    const section = document.getElementById("introduction");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
+    scrollToElementWithOffset("introduction", 120);
   }
 
   return (
-    <div className="flex flex-col sm:flex-row items-center mx-5 gap-16 sm:gap-10 mt-10 sm:mt-20 mb-5 sm:mx-20">
-      <div className="sm:w-1/2 flex flex-col gap-10 sm:gap-5 items-center sm:items-start text-center sm:text-left">
-        <h1 className="font-bold text-6xl sm:leading-normal">
-          <span className="text-red-500">Igualdad de género</span> en Tecsup
-        </h1>
-        <p className="font-medium text-gray-600 text-xl max-w-[80%]">
-          &quot;La igualdad de género es clave para construir una sociedad justa
-          y equilibrada&quot;
-        </p>
-        <button
-          className="bg-red-500 sm:mt-5 py-2 px-5 font-bold text-white fonttext-xl rounded-lg hover:bg-red-700 transition-colors w-fit"
-          onClick={handleClick}
-        >
-          Conocer más
-        </button>
+    <section className="px-8 sm:px-14 sm:h-screen xl:min-h-0 bg-gradient-to-b from-red-100 to-neutral-100">
+      <div className="flex flex-col sm:flex-row items-center gap-8 sm:gap-10 pt-36">
+        <div className="sm:w-1/2 flex flex-col gap-6 sm:gap-8 items-center sm:items-start text-center sm:text-left">
+          <h1 className="font-extrabold text-6xl sm:text-7xl text-black">
+            Igualdad de género en <span className="text-red-600">Tecsup</span>
+          </h1>
+          <p className="font-medium text-gray-500 text-xl max-w-2xl">
+            La igualdad de género es esencial para construir una sociedad más
+            justa y equilibrada. En Tecsup, estamos comprometidos con la
+            equidad.
+          </p>
+          <button
+            className="bg-red-600 py-3 px-6 font-medium text-white text-lg rounded-lg hover:bg-red-800 transition-colors mt-5 w-fit"
+            onClick={handleClick}
+          >
+            Conocer más
+          </button>
+        </div>
+        <Image className="sm:w-1/2" src={hero} alt="Igualdad de género" />
       </div>
-      <Image className="sm:w-1/2" src={hero} alt="Igualdad de género" />
-    </div>
+    </section>
   );
 }

@@ -14,9 +14,8 @@ export default function Chart({
   series: number[];
 }) {
   return (
-    <div className="bg-white rounded-md p-5 border">
-      <p className="mb-1">{text}</p>
-      <p className="text-sm mb-5 text-gray-500">
+    <div className="">
+      <p className="text-lg mb-5 text-gray-500">
         {series.reduce((acc, serie) => acc + serie, 0)} respuestas
       </p>
       <div className="flex items-center justify-center">
