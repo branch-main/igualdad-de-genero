@@ -6,6 +6,8 @@ import {
   FaMoneyBillWave,
   FaLandmark,
   FaHandHoldingHeart,
+  FaHeartbeat,
+  FaHandsHelping
 } from "react-icons/fa";
 
 const dataGlobal = [
@@ -45,6 +47,13 @@ const dataGlobal = [
     value: 26,
     icon: <FaLandmark />,
   },
+  {
+  title: "Acceso a la Salud",
+  description:
+    "El 80% de las mujeres a nivel mundial tiene acceso a servicios de salud esenciales, aunque las barreras económicas y culturales aún persisten.",
+  value: 80,
+  icon: <FaHeartbeat />,
+}
 ];
 
 const dataALC = [
@@ -83,6 +92,13 @@ const dataALC = [
     value: 3,
     icon: <FaHandHoldingHeart />,
   },
+  {
+  title: "Violencia de Género",
+  description:
+    "En ALC, el 35% de las mujeres ha experimentado violencia física o sexual por parte de una pareja en algún momento de su vida.",
+  value: 35,
+  icon: <FaHandsHelping />,
+}
 ];
 
 const InfoSection: React.FC<{
@@ -95,8 +111,8 @@ const InfoSection: React.FC<{
   }[];
 }> = ({ title, data }) => {
   return (
-    <section className="py-10 px-5 sm:px-10">
-      <h2 className="font-extrabold text-4xl sm:text-5xl text-black mb-10 text-center">
+    <section className="px-5 sm:px-10">
+      <h2 className="font-extrabold text-4xl text-black mb-12 max-w-3xl mx-auto text-center">
         {title}
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -135,7 +151,7 @@ const InfoSection: React.FC<{
 
 const QuantitativeInfo: React.FC = () => {
   return (
-    <div className="max-w-6xl mx-auto flex items-center flex-col">
+    <div className="max-w-6xl mx-auto flex items-center flex-col gap-20 mb-20">
       <InfoSection
         title="Avances y Desafíos en la Igualdad de Género a Nivel Global"
         data={dataGlobal}

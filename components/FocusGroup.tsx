@@ -1,9 +1,9 @@
 export default function FocusGroup() {
   return (
-    <section className="py-10 px-5 sm:px-10 flex flex-col items-center bg-gradient-to-r from-red-800 to-red-500 my-20">
+    <section className="py-12 px-5 sm:px-10 mb-20 flex flex-col items-center bg-gradient-to-r from-red-800 to-red-500">
       <div className="max-w-[800px]">
         <div className="flex flex-col">
-          <h2 className="font-bold text-5xl text-center text-white mb-6">
+          <h2 className="font-bold text-4xl text-center text-white mb-6">
             Focus Group
           </h2>
           <p className="text-gray-200 mb-6 text-xl text-center">

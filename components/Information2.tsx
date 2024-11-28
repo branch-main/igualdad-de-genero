@@ -49,9 +49,9 @@ const perceptionsData = [
 
 const GenderPerceptionInfo: React.FC = () => {
   return (
-    <section className="py-10 px-5 mx-auto max-w-6xl">
-      <h2 className="font-extrabold text-4xl sm:text-5xl text-black mb-10 text-center">
-        Percepciones Clave sobre Igualdad de Género
+    <section className="px-5 sm:px-10 mx-auto max-w-6xl mb-20">
+      <h2 className="font-extrabold text-4xl max-w-3xl mx-auto text-black mb-12 text-center">
+        Percepciones Clave sobre la Igualdad de Género
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -3,21 +3,19 @@ import Introduction from "@/components/Introduction";
 import Information1 from "@/components/Information1";
 import Information2 from "@/components/Information2";
 import FocusGroup from "@/components/FocusGroup";
-import Publicidad from "@/components/Publicidad";
-import Encuestas from "@/components/Encuestas";
+import Advertising from "@/components/Advertising";
+import Survey from "@/components/Survey";
 
 export default function Home() {
   return (
-    <main className="flex flex-col bg-neutral-100">
+    <main>
       <Hero />
-
       <Introduction />
       <Information1 />
       <Information2 />
       <FocusGroup />
-
-      <Encuestas />
-      <Publicidad />
+      <Survey />
+      <Advertising />
     </main>
   );
 }

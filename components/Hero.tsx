@@ -22,8 +22,8 @@ export default function Hero() {
   }
 
   return (
-    <section className="px-8 sm:px-14 sm:h-screen xl:min-h-0 bg-gradient-to-b from-red-100 to-neutral-100">
-      <div className="flex flex-col sm:flex-row items-center gap-8 sm:gap-10 pt-36">
+    <section className="px-8 sm:px-14 sm:h-screen xl:h-auto bg-gradient-to-b from-red-100 pt-16">
+      <div className="flex flex-col sm:flex-row items-center gap-8 sm:gap-10 sm:h-full py-14">
         <div className="sm:w-1/2 flex flex-col gap-6 sm:gap-8 items-center sm:items-start text-center sm:text-left">
           <h1 className="font-extrabold text-6xl sm:text-7xl text-black">
             Igualdad de género en <span className="text-red-600">Tecsup</span>

@@ -25,8 +25,8 @@ function NavbarLink({
 
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 shadow-xl">
-      <nav className="max-w-[1440px] mx-auto flex items-center justify-between px-10 py-3 bg-neutral-50">
+    <header className="fixed top-0 left-0 w-full z-50 border shadow-md bg-neutral-50">
+      <nav className="max-w-[1440px] mx-auto flex items-center justify-between px-10 py-3">
         <Link href="/" className="flex items-center">
           <Image src={logo} alt="Logo" width={40} height={40} />
         </Link>
