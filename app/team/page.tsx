@@ -1,5 +1,8 @@
 import Image from "next/image";
-import logo from "@/app/images/logo.png";
+import team1 from "@/app/images/team/1.jpg";
+import team2 from "@/app/images/team/2.png";
+import team3 from "@/app/images/team/3.png";
+import team4 from "@/app/images/team/4.png";
 
 const teamMembers = [
   {
@@ -7,7 +10,7 @@ const teamMembers = [
     role: "Desarrollador Principal",
     description:
       "Alan es el encargado y supervisor del desarrollo de esta página.",
-    image: "https://via.placeholder.com/150",
+    image: team1,
   },
   {
     name: "Carlos Cáceres",
@@ -15,31 +18,29 @@ const teamMembers = [
 
     description:
       "Carlos se encarga de la recopilación e interpretación de datos de fuentes externas.",
-    image: "https://via.placeholder.com/150",
+    image: team2,
   },
   {
     name: "José Sánchez",
     role: "Investigador",
     description:
       "José es el encargado de gestionar las encuestas y entrevistas, recolecta información.",
-    image: "https://via.placeholder.com/150",
+    image: team3,
   },
   {
     name: "Mauricio Sedano",
     role: "Diseñador UI/UX",
     description:
       "Mauricio se encarga de la interfaz de usuario para retener y llamar la atención del usuario.",
-    image: "https://via.placeholder.com/150",
+    image: team4,
   },
 ];
 
 export default function Team() {
   return (
-    <section className="px-5 sm:px-10 py-10 bg-neutral-100 pt-24">
+    <section className="px-6 sm:px-12 py-10 pt-24">
       <div className="container mx-auto text-center mb-10">
-        <h2 className="text-4xl font-extrabold text-black">
-          Conoce al Equipo
-        </h2>
+        <h2 className="text-4xl font-extrabold text-black">Conoce al Equipo</h2>
 
         <p className="mt-4 text-xl text-gray-600">
           Un grupo de profesionales comprometidos con la igualdad de género y la
@@ -53,11 +54,11 @@ export default function Team() {
             className="bg-white p-6 rounded-lg shadow-lg text-center hover:scale-105 hover:bg-red-100 transform transition duration-300 ease-in-out"
           >
             <Image
-              src={logo}
+              src={member.image}
               alt={member.name}
-              width={32}
-              height={32}
-              className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
+              width={100}
+              height={100}
+              className="rounded-full aspect-square mx-auto object-cover mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800">
               {member.name}

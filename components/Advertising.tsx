@@ -1,6 +1,6 @@
 export default function Advertising() {
   return (
-    <section className="py-12 px-5 sm:px-10 flex flex-col items-center bg-gradient-to-r from-red-800 to-red-500">
+    <section className="py-12 px-5 sm:px-10 flex flex-col items-center bg-gradient-to-r from-red-800 to-red-500 mb-20">
       <div className="max-w-[800px]">
         <div className="flex flex-col">
           <h2 className="font-bold text-4xl text-center text-white mb-6">

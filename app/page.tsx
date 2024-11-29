@@ -5,6 +5,9 @@ import Information2 from "@/components/Information2";
 import FocusGroup from "@/components/FocusGroup";
 import Advertising from "@/components/Advertising";
 import Survey from "@/components/Survey";
+import Interviews from "@/components/Interviews";
+import Sources from "@/components/Sources";
+import ElevatorPitch from "@/components/ElevatorPitch";
 
 export default function Home() {
   return (
@@ -13,9 +16,12 @@ export default function Home() {
       <Introduction />
       <Information1 />
       <Information2 />
-      <FocusGroup />
       <Survey />
+      <Interviews />
+      <FocusGroup />
+      <ElevatorPitch />
       <Advertising />
+      <Sources />
     </main>
   );
 }
