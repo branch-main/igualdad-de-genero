@@ -38,7 +38,7 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <section className="px-6 sm:px-12 py-10 pt-24">
+    <section className="px-6 sm:px-12 py-10 pt-[120px]">
       <div className="container mx-auto text-center mb-10">
         <h2 className="text-4xl font-extrabold text-black">Conoce al Equipo</h2>
 

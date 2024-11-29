@@ -100,7 +100,7 @@ export default function Blogs() {
   };
 
   return (
-    <section className="px-6 sm:px-12 pt-24 py-10 mb-12">
+    <section className="px-6 sm:px-12 pt-[120px] py-10 mb-12">
       <h2 className="container text-4xl font-extrabold text-center mb-4">
         Blogs y experiencias
       </h2>
@@ -145,45 +145,6 @@ export default function Blogs() {
           </p>
         </Modal.Body>
       </Modal>
-
-      {/* {modalContent && ( */}
-      {/*   <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-70 p-4 h-screen pt-[85px]"> */}
-      {/*     <div className="bg-white rounded-lg shadow-lg p-8 max-w-3xl w-full fixed inset-0"> */}
-      {/*       <div className="relative overflow-auto max-h-full"> */}
-      {/*         <button */}
-      {/*           onClick={handleModalClose} */}
-      {/*           className="absolute top-4 right-4 text-gray-600 hover:text-gray-800 focus:outline-none" */}
-      {/*         > */}
-      {/*           <svg */}
-      {/*             xmlns="http://www.w3.org/2000/svg" */}
-      {/*             className="w-6 h-6" */}
-      {/*             fill="none" */}
-      {/*             stroke="currentColor" */}
-      {/*             viewBox="0 0 24 24" */}
-      {/*             strokeWidth="2" */}
-      {/*           > */}
-      {/*             <path */}
-      {/*               strokeLinecap="round" */}
-      {/*               strokeLinejoin="round" */}
-      {/*               d="M6 18L18 6M6 6l12 12" */}
-      {/*             /> */}
-      {/*           </svg> */}
-      {/*         </button> */}
-      {/**/}
-      {/*         <h3 className="text-3xl font-semibold text-red-600 mb-6"> */}
-      {/*           {modalContent.titulo} */}
-      {/*         </h3> */}
-      {/**/}
-      {/*         <button */}
-      {/*           onClick={handleModalClose} */}
-      {/*           className="mt-6 w-full bg-red-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500" */}
-      {/*         > */}
-      {/*           Cerrar */}
-      {/*         </button> */}
-      {/*       </div> */}
-      {/*     </div> */}
-      {/*   </div> */}
-      {/* )} */}
     </section>
   );
 }
