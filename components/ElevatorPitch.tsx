@@ -1,8 +1,8 @@
 import React from "react";
 
-const VideoSection = () => {
+export default function ElevatorPitch() {
   return (
-    <section className="mb-20">
+    <section className="mb-20 px-6 sm:px-12 mx-auto">
       <div className="container mx-auto text-center max-w-3xl">
         <h2 className="text-4xl font-extrabold text-black mb-8">
           Elevator Pitch
@@ -22,6 +22,4 @@ const VideoSection = () => {
       </div>
     </section>
   );
-};
-
-export default VideoSection;
+}

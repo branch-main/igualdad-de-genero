@@ -16,11 +16,9 @@ export default function Advertising() {
             width="270"
             height="480"
             className="aspect-[9/16] mx-auto rounded-lg shadow-2xl"
-            src="https://www.youtube.com/embed/wCnDB4xkoHg"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
+            src="https://drive.google.com/file/d/1mVvjCoYOO1thVui3adRsjG6gQottRezg/preview"
+            title="Focus Group Video"
+          />
         </div>
       </div>
     </section>

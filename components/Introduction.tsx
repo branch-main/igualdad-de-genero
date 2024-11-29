@@ -37,7 +37,7 @@ export default function Introduction() {
           para explorar los hitos clave de esta lucha esencial.
         </p>
       </div>
-      <blockquote className="mt-16 italic text-gray-500 text-lg max-w-2xl mx-auto border-l-4 border-blue-500 pl-4">
+      <blockquote className="mt-16 italic text-gray-500 text-lg max-w-2xl mx-auto border-l-4 border-red-500 pl-4">
         &quot;La igualdad de género es más que un objetivo en sí mismo. Es una
         condición previa para enfrentar el desafío de reducir la pobreza,
         promover el desarrollo sostenible y construir un buen gobierno.&quot;

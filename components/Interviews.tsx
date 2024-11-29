@@ -3,7 +3,7 @@ import { Carousel } from "flowbite-react";
 function CarouselVideo({ id }: { id: string }) {
   return (
     <iframe
-      className="w-full aspect-video rounded-lg shadow-2xl"
+      className="w-full aspect-video rounded-lg"
       src={`https://drive.google.com/file/d/${id}/preview`}
     />
   );
@@ -16,7 +16,7 @@ export default function Interviews() {
         <h2 className="text-4xl font-extrabold mb-12">Entrevistas</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-12">
           <Carousel
-            className="w-full mx-auto aspect-video order-last sm:order-first shadow-2xl rounded-lg overflow-hidden"
+            className="w-full mx-auto aspect-video order-last sm:order-first"
             slide={false}
           >
             <CarouselVideo id="1NHnKjd41d0Lp55orvczfvBv-IN7W4vyS" />

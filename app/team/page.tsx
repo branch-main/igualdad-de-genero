@@ -9,7 +9,7 @@ const teamMembers = [
     name: "Alan Roncal",
     role: "Desarrollador Principal",
     description:
-      "Alan es el encargado y supervisor del desarrollo de esta página.",
+      "Alan es el encargado y supervisor del desarrollo de esta página",
     image: team1,
   },
   {
@@ -17,21 +17,21 @@ const teamMembers = [
     role: "Investigador",
 
     description:
-      "Carlos se encarga de la recopilación e interpretación de datos de fuentes externas.",
+      "Carlos se encarga de la recopilación e interpretación de datos de fuentes externas",
     image: team2,
   },
   {
     name: "José Sánchez",
     role: "Investigador",
     description:
-      "José es el encargado de gestionar las encuestas y entrevistas, recolecta información.",
+      "José es el encargado de gestionar las encuestas y entrevistas, recolecta información",
     image: team3,
   },
   {
     name: "Mauricio Sedano",
     role: "Diseñador UI/UX",
     description:
-      "Mauricio se encarga de la interfaz de usuario para retener y llamar la atención del usuario.",
+      "Mauricio se encarga de la interfaz de usuario para retener y llamar la atención del usuario",
     image: team4,
   },
 ];

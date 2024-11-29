@@ -104,7 +104,7 @@ export default function Blogs() {
       <h2 className="container text-4xl font-extrabold text-center mb-4">
         Blogs y experiencias
       </h2>
-      <p className="text-xl text-gray-600 mb-12 max-w-4xl mx-auto">
+      <p className="text-xl text-gray-600 mb-12 max-w-4xl mx-auto text-center">
         Esta sección comparte historias inspiradoras sobre cómo romper los
         estereotipos de género y promover la igualdad a través de la educación,
         el empoderamiento y la visibilidad en diversos campos, demostrando el
